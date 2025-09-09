@@ -28,4 +28,12 @@ func main() {
     break
   default:
     fmt.Println("Invalid.")
+
+
+// Can declare variable inside the if stmt 
+  if success:= true; success {
+		fmt.Println("We're rich!")
+	} else {
+		fmt.Println("Where did we go wrong?")
+	}
 }
